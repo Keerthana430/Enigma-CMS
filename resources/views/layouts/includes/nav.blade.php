@@ -208,31 +208,74 @@
                   <li>
                     <a href="#"
                       >Courses
-                       <i class="fi fi-ss-angle-small-down"></i>
+                       {{-- <i class="fi fi-ss-angle-small-down"></i> --}}
                     </a>
-                    <ul class="sub-menu">
+                    {{-- <ul class="sub-menu">
                       <li>
                         <a href="course.html">Course</a>
                       </li>
                       <li>
                         <a href="course-details.html">Course Details</a>
                       </li>
-                    </ul>
+                    </ul> --}}
                   </li>
                   <li>
                     <a href="#"
-                      >Events <i class="fi fi-ss-angle-small-down"></i>
+                      >Events 
+                      {{-- <i class="fi fi-ss-angle-small-down"></i> --}}
                     </a>
-                    <ul class="sub-menu">
+                    {{-- <ul class="sub-menu">
                       <li>
                         <a href="event.html">Event</a>
                       </li>
                       <li>
                         <a href="event-details.html">Event Details</a>
                       </li>
-                    </ul>
+                    </ul> --}}
                   </li>
                   <li>
+                    <a href="#"
+                      >Students
+                      {{-- <i class="fi fi-ss-angle-small-down"></i> --}}
+                    </a>
+                    {{-- <ul class="sub-menu">
+                      <li>
+                        <a href="event.html">Event</a>
+                      </li>
+                      <li>
+                        <a href="event-details.html">Event Details</a>
+                      </li>
+                    </ul> --}}
+                  </li>
+                  <li>
+                    <a href="#"
+                      >Faculties
+                      {{-- <i class="fi fi-ss-angle-small-down"></i> --}}
+                    </a>
+                    {{-- <ul class="sub-menu">
+                      <li>
+                        <a href="event.html">Event</a>
+                      </li>
+                      <li>
+                        <a href="event-details.html">Event Details</a>
+                      </li>
+                    </ul> --}}
+                  </li>
+                  <li>
+                    <a href="#"
+                      >Activities
+                      {{-- <i class="fi fi-ss-angle-small-down"></i> --}}
+                    </a>
+                    {{-- <ul class="sub-menu">
+                      <li>
+                        <a href="event.html">Event</a>
+                      </li>
+                      <li>
+                        <a href="event-details.html">Event Details</a>
+                      </li>
+                    </ul> --}}
+                  </li>
+                  {{-- <li>
                     <a href="#"
                       >Pages <i class="fi fi-ss-angle-small-down"></i>
                     </a>
@@ -256,41 +299,19 @@
                         <a href="404.html">404 Error</a>
                       </li>
                     </ul>
-                  </li>
+                  </li> --}}
                   <li>
-                    <a href="#"
-                      >Shop <i class="fi fi-ss-angle-small-down"></i>
+                    <a href="#">Blog 
+                      {{-- <i class="fi fi-ss-angle-small-down"></i> --}}
                     </a>
-                    <ul class="sub-menu">
-                      <li>
-                        <a href="shop.html">Shop</a>
-                      </li>
-                      <li>
-                        <a href="shop-single.html">Shop Single</a>
-                      </li>
-                      <li>
-                        <a href="cart.html">Cart</a>
-                      </li>
-                      <li>
-                        <a href="wishlist.html">Wishlist</a>
-                      </li>
-                      <li>
-                        <a href="checkout.html">Checkout</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#"
-                      >Blog <i class="fi fi-ss-angle-small-down"></i>
-                    </a>
-                    <ul class="sub-menu">
+                    {{-- <ul class="sub-menu">
                       <li>
                         <a href="blog.html">Blog</a>
                       </li>
                       <li>
                         <a href="blog-details.html">Blog Details</a>
                       </li>
-                    </ul>
+                    </ul> --}}
                   </li>
                   <li>
                     <a href="contact.html">Contact</a>
