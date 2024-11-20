@@ -193,21 +193,22 @@
               <nav class="ep-header__navigation">
                 <ul class="ep-header__menu">
                   <li class="active">
-                    <a href="#"
-                      >Home <i class="fi fi-ss-angle-small-down"></i>
+                    <a href="{{ route('home') }}">Home 
+                      {{-- <i class="fi fi-ss-angle-small-down"></i> --}}
                     </a>
-                    <ul class="sub-menu">
+                    {{-- <ul class="sub-menu">
                       <li class="active">
                         <a href="index.html">Home One</a>
                       </li>
                       <li>
                         <a href="index-2.html">Home Two</a>
                       </li>
-                    </ul>
+                    </ul> --}}
                   </li>
                   <li>
                     <a href="#"
-                      >Courses <i class="fi fi-ss-angle-small-down"></i>
+                      >Courses
+                       <i class="fi fi-ss-angle-small-down"></i>
                     </a>
                     <ul class="sub-menu">
                       <li>
@@ -298,8 +299,8 @@
               </nav>
             </div>
             <div class="col-lg-12 col-xl-2 col-12">
-              <div class="ep-header__right">
-                <div class="ep-topbar__action">
+              <div class="ep-header__left">
+                {{-- <div class="ep-topbar__action">
                   <div class="ep-topbar__wishlist">
                     <a href="wishlist.html" class="ep-topbar__action-icon">
                       <i class="fi-rr-heart"></i>
@@ -316,7 +317,7 @@
                       <span>$496.00</span>
                     </div>
                   </div>
-                </div>
+                </div> --}}
                 <!-- Mobile Menu Button -->
                 <button
                   type="button"

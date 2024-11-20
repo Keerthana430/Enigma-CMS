@@ -6,7 +6,7 @@
               <div class="col-lg-3 col-md-6 col-12">
                 <div class="ep-footer__widget footer-about">
                   <div class="ep-footer__logo">
-                    <a href="/">
+                    <a href="{{ route('home') }}">
                       <img
                         src="{{ asset('assets/images/logo-gold.png') }}"
                         alt="footer-logo"
