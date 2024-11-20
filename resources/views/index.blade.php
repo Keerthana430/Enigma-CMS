@@ -85,7 +85,7 @@
             <!-- offcanvas-logo-start -->
             <div class="offcanvas-logo">
               <a href="index.html">
-                <img src="{{ asset('/assets/images/logo-3.svg') }}" alt="logo" />
+                <img src="{{ asset('/assets/images/logo.png') }}" alt="logo" />
               </a>
             </div>
             <!-- offcanvas-logo-end -->
@@ -210,7 +210,7 @@
               <div class="ep-topbar__column">
                 <div class="ep-logo">
                   <a href="index.html">
-                    <img src="{{ asset('/assets/images/logo-3.svg') }}" alt="logo" />
+                    <img src="{{ asset('/assets/images/logo.png') }}" alt="logo" style="height: 20%" />
                   </a>
                 </div>
               </div>
@@ -1996,7 +1996,7 @@
                         </div>
                         <div class="ep-footer__contact-info">
                           <p>Address</p>
-                          <span>66 Broklyant, New York India</span>
+                          <span>AJIET, Mangalore</span>
                         </div>
                       </div>
                       <div class="ep-footer__contact-single">
@@ -2005,7 +2005,7 @@
                         </div>
                         <div class="ep-footer__contact-info">
                           <p>Phone Number</p>
-                          <a href="tel:012 345 678 9101">012 345 678 9101</a>
+                          <a href="tel:012 345 678 9101">+91 9019003490</a>
                         </div>
                       </div>
                     </div>
@@ -2013,7 +2013,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-12">
                   <div class="ep-footer__widget footer-links">
-                    <h4 class="ep-footer__widget-title">About Company</h4>
+                    <h4 class="ep-footer__widget-title">About Enigma</h4>
                     <ul class="ep-footer__links-list">
                       <li>
                         <a href="404-2.html">Service</a>
@@ -2124,7 +2124,7 @@
                     <p>
                       ©
                       <a target="_blank" href="https://themecorn.com/"
-                        >ThemeCorn</a
+                        >Enigma</a
                       >
                       2024 | All Rights Reserved
                     </p>
@@ -2189,6 +2189,4 @@
     <!-- Main JS -->
     <script src="{{ asset('/assets/plugins/js/active.js') }}"></script>
   </body>
-
-<!-- Mirrored from edupath-html.vercel.app/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Nov 2024 14:33:37 GMT -->
 </html>
