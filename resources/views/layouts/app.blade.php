@@ -19,7 +19,7 @@
     <meta name="author" content="Darshan Bhandary" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('/assets/images/favicon.svg') }}" />
+    <link rel="icon" type="image/x-icon" href="{{ asset('/assets/images/logo-landing.png') }}" />
 
     <!-- Site Title -->
     {{-- renders dynamic titles  --}}

@@ -192,8 +192,21 @@
             <div class="col-lg-10 col-12">
               <nav class="ep-header__navigation">
                 <ul class="ep-header__menu">
-                  <li class="active">
+                  <li>
                     <a href="{{ route('home') }}">Home 
+                      {{-- <i class="fi fi-ss-angle-small-down"></i> --}}
+                    </a>
+                    {{-- <ul class="sub-menu">
+                      <li class="active">
+                        <a href="index.html">Home One</a>
+                      </li>
+                      <li>
+                        <a href="index-2.html">Home Two</a>
+                      </li>
+                    </ul> --}}
+                  </li>
+                  <li >
+                    <a href="{{ route('about') }}">About Us
                       {{-- <i class="fi fi-ss-angle-small-down"></i> --}}
                     </a>
                     {{-- <ul class="sub-menu">
