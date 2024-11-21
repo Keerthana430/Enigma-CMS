@@ -143,7 +143,7 @@
           <div class="col-lg-10 col-6">
             <div class="ep-topbar__column ep-topbar__column2">
               <div class="ep-topbar__search-widget">
-                <div class="ep-topbar__category">
+                {{-- <div class="ep-topbar__category">
                   <select>
                     <option data-display="All">All</option>
                     <option value="1">Study Buddy</option>
@@ -152,7 +152,7 @@
                     <option value="4">Online Courses</option>
                     <option value="5">Tutoring Services</option>
                   </select>
-                </div>
+                </div> --}}
                 <div class="ep-topbar__search">
                   <form action="#" method="post">
                     <input
@@ -206,49 +206,58 @@
                     </ul> --}}
                   </li>
                   <li >
-                    <a href="{{ route('about') }}">About Us
-                      {{-- <i class="fi fi-ss-angle-small-down"></i> --}}
+                    <a href="{{ route('about') }}">About 
+                      <i class="fi fi-ss-angle-small-down"></i>
                     </a>
-                    {{-- <ul class="sub-menu">
-                      <li class="active">
-                        <a href="index.html">Home One</a>
+                    <ul class="sub-menu">
+                      <li class="">
+                        <a href="/">Department </a>
                       </li>
                       <li>
-                        <a href="index-2.html">Home Two</a>
+                        <a href="/">Department Achievements</a>
                       </li>
-                    </ul> --}}
+                    </ul>
                   </li>
                   <li>
                     <a href="#"
-                      >Courses
-                       {{-- <i class="fi fi-ss-angle-small-down"></i> --}}
+                      >Subjects
+                       <i class="fi fi-ss-angle-small-down"></i>
                     </a>
-                    {{-- <ul class="sub-menu">
+                    <ul class="sub-menu">
                       <li>
-                        <a href="course.html">Course</a>
+                        <a href="/">Subject Handlers</a>
                       </li>
                       <li>
-                        <a href="course-details.html">Course Details</a>
+                        <a href="/">Study materials</a>
                       </li>
-                    </ul> --}}
+                    </ul>
                   </li>
                   <li>
                     <a href="#"
                       >Events 
                       {{-- <i class="fi fi-ss-angle-small-down"></i> --}}
                     </a>
-                    {{-- <ul class="sub-menu">
-                      <li>
-                        <a href="event.html">Event</a>
-                      </li>
-                      <li>
-                        <a href="event-details.html">Event Details</a>
-                      </li>
-                    </ul> --}}
                   </li>
                   <li>
                     <a href="#"
-                      >Students
+                      >Team
+                      <i class="fi fi-ss-angle-small-down"></i>
+                    </a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="/">Faculties</a>
+                      </li>
+                      <li>
+                        <a href="/">Students</a>
+                      </li>
+                      <li>
+                        <a href="/">Alumini</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#"
+                      >Activites
                       {{-- <i class="fi fi-ss-angle-small-down"></i> --}}
                     </a>
                     {{-- <ul class="sub-menu">
@@ -262,31 +271,20 @@
                   </li>
                   <li>
                     <a href="#"
-                      >Faculties
-                      {{-- <i class="fi fi-ss-angle-small-down"></i> --}}
+                      >Notifications
+                      <i class="fi fi-ss-angle-small-down"></i>
                     </a>
-                    {{-- <ul class="sub-menu">
+                    <ul class="sub-menu">
                       <li>
-                        <a href="event.html">Event</a>
+                        <a href="/">Circular</a>
                       </li>
                       <li>
-                        <a href="event-details.html">Event Details</a>
-                      </li>
-                    </ul> --}}
-                  </li>
-                  <li>
-                    <a href="#"
-                      >Activities
-                      {{-- <i class="fi fi-ss-angle-small-down"></i> --}}
-                    </a>
-                    {{-- <ul class="sub-menu">
-                      <li>
-                        <a href="event.html">Event</a>
+                        <a href="/">Exams</a>
                       </li>
                       <li>
-                        <a href="event-details.html">Event Details</a>
+                        <a href="/">Attendance</a>
                       </li>
-                    </ul> --}}
+                    </ul>
                   </li>
                   {{-- <li>
                     <a href="#"
