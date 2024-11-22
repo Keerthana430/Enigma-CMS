@@ -13,4 +13,8 @@ class HomeController extends Controller
     public function about(){
         return view('about.index');
     }
+
+    public function contact(){
+        return view('contact.index');
+    }
 }

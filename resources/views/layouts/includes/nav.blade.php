@@ -134,7 +134,7 @@
           <div class="col-lg-2 col-6">
             <div class="ep-topbar__column">
               <div class="ep-logo">
-                <a href="index.html">
+                <a href="{{ route('home') }}">
                   <img src="{{ asset('/assets/images/logo.png') }}" alt="logo" style="height: 20%" />
                 </a>
               </div>
