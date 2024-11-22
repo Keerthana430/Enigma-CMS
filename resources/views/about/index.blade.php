@@ -16,7 +16,7 @@
               <h3 class="ep-breadcrumbs__title">About Us</h3>
               <ul class="ep-breadcrumbs__menu">
                 <li>
-                  <a href="index.html">Home</a>
+                  <a href="{{ route('home') }}">Home</a>
                 </li>
                 <li>
                   <i class="fi-bs-angle-right"></i>

@@ -1,11 +1,9 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
-// Route::get('/', function () {
-//     return view('index');
-// });
 
 Route::get("/", [HomeController::class , 'home'])->name('home');
 Route::get("/about", [HomeController::class , 'about'])->name('about');
@@ -17,3 +15,5 @@ Route::get('/activities', [HomeController::class ,'activities'])->name('activiti
 Route::get('/contact', [HomeController::class ,'contact'])->name('contact');
 Route::get('/gallery', [HomeController::class ,'gallery'])->name('gallery');
 Route::get('blog', [HomeController::class ,'blog'])->name('blog');
+Route::get('/login', [AuthController::class ,'login'])->name('login');
+Route::get('/register', [AuthController::class ,'register'])->name('register');
